@@ -15,15 +15,18 @@ This project uses [CavalierCoder's Grab package](https://github.com/cavaliercode
 Clone locally the repository.
 
 ```
-cd <path/to/your/desired/folder/>
-git clone git@github.com:jonathanlinat/simple-go-fna-http-downloader.git
+$ cd <path/to/your/desired/folder/>
+
+$ git clone git@github.com:jonathanlinat/simple-go-fna-http-downloader.git
 ```
 
 Install the dependencies.
 
 ```
-cd simple-go-fna-http-downloader/
-npm install
+$ cd simple-go-fna-http-downloader/
+
+$ go mod download
+$ go mod verify
 ```
 
 ### Specific commands
@@ -31,7 +34,7 @@ npm install
 Run the script.
 
 ```bash
-go run main.go
+$ go run main.go
 ```
 
 Downloaded files will be available at root directory. In case of any error, you will be notified.
